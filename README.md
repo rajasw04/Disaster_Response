@@ -67,6 +67,8 @@ A web app was developed where emergency workers can input new disaster messages 
 
 ![newplot](https://user-images.githubusercontent.com/123730023/220877848-76e699a8-d0d0-4cdd-bf75-6321a6c36944.png)
 
+![newplot (1)](https://user-images.githubusercontent.com/123730023/220896335-9b2dccc1-bf1d-450d-96c5-5d0f4456fe6b.png)
+
 
 ### Instructions of How to Interact With Project:
 1. Run the following commands in the project's root directory to set up your database and model.
