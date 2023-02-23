@@ -24,7 +24,7 @@ data
 |- disaster_categories.csv # data to process    
 |- disaster_messages.csv # data to process    
 |- process_data.py # data cleaning pipeline    
-|- InsertDatabaseName.db # database to save clean data to     
+|- DisasterResponse.db # database to save clean data to     
 
 
 models   
@@ -64,6 +64,8 @@ A web app was developed where emergency workers can input new disaster messages 
 ![Capture](https://user-images.githubusercontent.com/123730023/220874070-1feca682-4dbc-4f43-ba2b-052e4fa860ab.PNG)
 
 ![Capture2](https://user-images.githubusercontent.com/123730023/220873950-c65dba65-5826-4230-969d-05db15a7dc7d.PNG)
+
+![newplot](https://user-images.githubusercontent.com/123730023/220877848-76e699a8-d0d0-4cdd-bf75-6321a6c36944.png)
 
 
 ### Instructions of How to Interact With Project:
