@@ -11,23 +11,29 @@
 This project involved analysing disaster data from Appen to build a model that classifies disaster messages. Natural Language Processing and Machine Learning was used to build a pipeline that catogerises messages in a disaster to identify the correct response team required. A web app was created where disaster messages could be inputted and the output would catogerize them into areas where they require attention. 
 
 ### File Descriptions
-- app
-| - template
-| |- master.html  # main page of web app
-| |- go.html  # classification result page of web app
-|- run.py  # Flask file that runs app
+app    
 
-- data
-|- disaster_categories.csv  # data to process 
-|- disaster_messages.csv  # data to process
-|- process_data.py
-|- DisasterResponse.db   # database to save clean data to
+| - template    
+| |- master.html # main page of web app    
+| |- go.html # classification result page of web app    
+|- run.py # Flask file that runs app    
 
-- models
-|- train_classifier.py
-|- classifier.pkl  # saved model 
 
-- README.md    
+data    
+
+|- disaster_categories.csv # data to process    
+|- disaster_messages.csv # data to process    
+|- process_data.py # data cleaning pipeline    
+|- InsertDatabaseName.db # database to save clean data to     
+
+
+models   
+
+|- train_classifier.py # machine learning pipeline     
+|- classifier.pkl # saved model     
+
+
+README.md  
 
 ### Components
 #### 1. ETL Pipeline
@@ -54,6 +60,10 @@ A jupyter notebook `ML Pipeline Preparation` was used to prepare the train_class
 
 #### 3. Flask Web App
 A web app was developed where emergency workers can input new disaster messages and recieve classification results, as shown below:
+
+![Capture](https://user-images.githubusercontent.com/123730023/220874070-1feca682-4dbc-4f43-ba2b-052e4fa860ab.PNG)
+
+![Capture2](https://user-images.githubusercontent.com/123730023/220873950-c65dba65-5826-4230-969d-05db15a7dc7d.PNG)
 
 
 ### Instructions of How to Interact With Project:
